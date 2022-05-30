@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange"
+    tools:context=".QuizPage2">
+
+
+    <TextView
+        android:id="@+id/textViewQuestion1"
+        android:layout_width="401dp"
+        android:layout_height="203dp"
+        android:background="#F6F6F6"
+        android:gravity="center|left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewA1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#FAF8F8"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion1" />
+
+    <TextView
+        android:id="@+id/textViewC1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#FAF8F8"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewB1" />
+
+    <TextView
+        android:id="@+id/textViewD1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#FAF8F8"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewC1" />
+
+    <TextView
+        android:id="@+id/textViewB1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#FAF8F8"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewA1" />
+
+    <Button
+        android:id="@+id/btnBitir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:text="Bitir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewD1"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <Button
+        android:id="@+id/btnSonraki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sonraki"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/btnBitir"
+        app:layout_constraintTop_toBottomOf="@+id/textViewD1"
+        app:layout_constraintVertical_bias="0.403" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

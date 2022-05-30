@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051243914537",
+    "project_id": "quiz-game-602f7",
+    "storage_bucket": "quiz-game-602f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051243914537:android:ff801e67244efb2d280338",
+        "android_client_info": {
+          "package_name": "com.egame.bilgiyarismasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051243914537-76s0o25vr7mv6il78teb7ib2o6538ddc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCes0vMqSC3o7coa8NlS30WQwPOHy4HryM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051243914537-76s0o25vr7mv6il78teb7ib2o6538ddc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sınav</string>
+    <string name="account">Hesabın Yok mu? <font color='#5b39c6'> Kayıt Ol</font></string>
+    <string name="forgot_password"><u>Şifremi Unuttum?</u></string>
+    <string-array name="userType">
+        <item>Öğrenci</item>
+        <item>Sınav Yöneticisi</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
